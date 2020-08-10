@@ -6,7 +6,7 @@ $( document ).ready(function(){
       $.each( data, function( icon, tags ) {
         firstTag = tags.split(' ')[0];
         tags = tags.toLowerCase();
-        icons.push( '<div" class="icon-preview--item" data-tags="' + tags + '"><img src="./icons/' + icon + '.png" height="40" alt="' + icon + '"><p class="icon--name mt24">' + icon + '</p></div>' );
+        icons.push( '<div" class="icon-preview--item" data-tags="' + tags + '"><img src="/squircular/icons/' + icon + '.png" height="40" alt="' + icon + '"><p class="icon--name mt24">' + icon + '</p></div>' );
       });
       $('.icon-preview').html(icons);
 
